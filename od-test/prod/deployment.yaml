@@ -37,7 +37,7 @@ spec:
      nodeSelector:
       kubernetes.io/hostname: k8s-worker-01
      containers:
-        - name: od-test-master
+        - name: od-test-prod
           image: akkessun/od-test-prod:latest
           ports:
             - name: http
