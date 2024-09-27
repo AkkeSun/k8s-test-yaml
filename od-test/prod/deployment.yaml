@@ -38,7 +38,7 @@ spec:
       kubernetes.io/hostname: k8s-worker-01
      containers:
         - name: od-test-prod
-          image: akkessun/od-test-prod:latest
+          image: akkessun/od-test-prod:v1
           ports:
             - name: http
               containerPort: 8080
